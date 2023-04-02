@@ -162,3 +162,34 @@ p {
   -o-transition: 0.3s;
 }
 /* Services Area End */
+
+/* Pricing Area Start */
+#pricing {
+  margin-bottom: 40px;
+  padding: 80px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.5)),
+    url(../images/banner.jpg) no-repeat center / cover;
+}
+
+.pricing-title h3 {
+  font-size: 54px;
+  font-weight: 800;
+  color: #ffffff;
+  font-family: var(--primary-font);
+}
+
+.pricing-inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+  color: #000000;
+  background: #ffffff;
+  padding: 40px 40px;
+  font-family: var(--primary-font);
+  cursor: pointer;
+}
+
+.pricing-inner-right h4 {
+  color: rgb(82, 75, 66) !important;
+}
+/* Pricing Area End */
