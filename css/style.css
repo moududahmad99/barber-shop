@@ -1,3 +1,45 @@
-/* Navbar Area Start */
+/* Common Css Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 0.8;
+  margin: 0;
+}
+
+:root {
+  --primary-font: "Montserrat";
+}
+/* Common Css End */
+
+/* Navbar Area Start */
+.navbar-brand {
+  font-family: var(--primary-font);
+  font-size: 29px;
+}
+.nav-item i {
+  font-size: 29px;
+  cursor: pointer;
+}
 /* Navbar Area End */
